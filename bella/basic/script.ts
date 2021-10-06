@@ -83,3 +83,21 @@ players.forEach(function(val,i){
     console.log(val, i);
 })
 
+// array and object fun
+
+const hero = {
+    fName: "Clark",
+    lName: "Kent",
+    age: 30
+};
+
+const a = hero.fName;
+const b = hero.lName;
+const {fName: a, lName: b}= hero;
+const {fName: fName, lName:lName}= hero;
+//??
+
+const DCuni = ["Superman", "Batman"];
+const [x,y]=DCuni;
+
+
