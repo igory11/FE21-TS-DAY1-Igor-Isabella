@@ -61,7 +61,7 @@ for (let i: number = 0; i<10; i++) {
         myName.forEach(function(value){
     
        
-            document.getElementById("box").innerHTML += value.lName +"<br>"
+            (document.getElementById("box") as HTMLElement).innerHTML += value.lName +"<br>"
         
         })}, 3000);
 }
